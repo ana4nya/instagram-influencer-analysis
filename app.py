@@ -32,10 +32,6 @@ uploaded_file = st.sidebar.file_uploader(
 )
 
 if uploaded_file is None:
-    st.info(
-        "Upload the Blackbond campaign Excel file "
-        "using the sidebar to begin."
-    )
     st.stop()
 
 df = load_data(uploaded_file)
