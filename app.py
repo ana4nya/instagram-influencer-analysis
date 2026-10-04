@@ -231,6 +231,8 @@ st.pyplot(fig)
 
 st.header("Complete Creator Ranking")
 
+
+
 st.dataframe(
     creator_data[
         [
@@ -248,3 +250,4 @@ st.dataframe(
     ],
     use_container_width=True
 )
+st.caption("Made by Ananya S.")
