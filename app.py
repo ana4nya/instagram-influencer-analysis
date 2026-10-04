@@ -21,7 +21,7 @@ st.title(
 
 st.write(
     "An analytical system for evaluating Instagram creator "
-    "performance and identifying high-potential creators."
+    "performance and identifying high potential creators."
 )
 
 st.sidebar.header("Dataset")
