@@ -24,6 +24,8 @@ st.write(
     "performance and identifying high potential creators."
 )
 
+st.caption("Developed by Ananya S. | BBM Internship Project")
+
 st.sidebar.header("Dataset")
 
 uploaded_file = st.sidebar.file_uploader(
